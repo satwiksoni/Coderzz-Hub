@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "376634762581",
+    "project_id": "coderzz-assemble-e88ae",
+    "storage_bucket": "coderzz-assemble-e88ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376634762581:android:6315cce2a61fe0c42e7bdc",
+        "android_client_info": {
+          "package_name": "com.example.coderzz_assemble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376634762581-v7ebeeuluitu9qie4sdnfr0ajmcpli9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coderzz_assemble",
+            "certificate_hash": "2328aaf1fd17d7ba8c06199f76fc5f16b98acdf6"
+          }
+        },
+        {
+          "client_id": "376634762581-oaqmnppvh9g686ogdidvo7e596ubgq12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC25yFeab4ku74oLg4HqS9I-jIz3GHDD1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376634762581-oaqmnppvh9g686ogdidvo7e596ubgq12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

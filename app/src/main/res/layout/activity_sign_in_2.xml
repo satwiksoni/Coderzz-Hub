@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@color/grey"
+android:layout_height="match_parent"
+    tools:context=".SignIn_Activity2">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:id="@+id/toolbartb"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent">
+    <androidx.appcompat.widget.Toolbar
+        app:title="WelCome"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/toolbar"
+        android:background="@color/black"
+        android:layout_height="wrap_content" />
+
+</com.google.android.material.appbar.AppBarLayout>
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:textSize="40sp"
+    android:shadowDx="@integer/google_play_services_version"
+    android:shadowDy="@integer/google_play_services_version"
+    android:shadowColor="@color/white"
+    android:textColor="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CoderZzz Assemble"
+    android:textStyle="bold|italic"
+    android:fontFamily="casual"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/toolbartb" />
+
+
+<ImageView
+    android:layout_marginTop="100dp"
+    android:id="@+id/welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:src="@drawable/signin"
+    android:background="@color/black"
+
+    app:layout_constraintTop_toBottomOf="@id/toolbartb"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+<TextView
+    android:id="@+id/signintv"
+    android:textSize="35sp"
+    android:textColor="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Jump In!!"
+    android:layout_marginTop="10dp"
+    android:fontFamily="casual"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/welcome" />
+<com.google.android.gms.common.SignInButton
+    android:layout_width="match_parent"
+    android:id="@+id/signinBt"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:foregroundTint="@color/black"
+    android:backgroundTint="@color/black"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/signintv" />
+
+
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
